@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.App {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+
+@font-face {
+  font-family: "Nunito", sans-serif;
+  src: local("Rama Gothic E Semibold"),
+  url(./fonts/Rama\ Gothic\ E\ W01\ SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito", sans-serif;
+  src: local("Century Gothic Regular"),
+    url(./fonts/CenturyGothic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Century Gothic Bold";
+  src: local("Century Gothic Bold"),
+    url(./fonts/Century\ Gothic\ Bold.ttf) format("truetype");
+}
+
+.left-stuff {
+  text-align: left;
+}
+
+.page-title {
+  text-align: center;
+  font-family: "Century Gothic Bold";
+  color: #000;
+}
+
+#nav-buttons {
+  text-align: center;
+  text-decoration: none;
+}
+
+.App-logo {
+  height: 80vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: rgba(0,0,0,0.4);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#attachDocButton {
+  margin: 10px;
+}
+
+.Landing-card {
+  padding-top: 100px;
+  align-items: flex-start;
+}
+
+.Landing-card > h1 {
+  font-weight: bold;
+  font-size: 60px !important;
+  color: black;
+  padding-bottom: 20px;
+}
+.Landing-card > p {
+  color: black;
+}
+
+#criteria {
+  margin-right: 10px;
+}
+
+#homeContainer {
+  margin-top: 5vh;
+}
+
+#helpBlock {
+  color: black;
+}
+
+/* .input-page {
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-top: 5vh;
+  color: darkgreen;
+} */
+
+#form-header {
+  font-weight: bold;
+
+  font-size: 40px !important;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+}
+
+#social-worker-link {
+  margin-top: 3vh;
+}
+
+#med-form-click-here {
+  text-decoration: none;
+}
+
+.form-button {
+  margin: 10px;
+  outline: none;
+}
+
+.btn-primary{
+  margin: 10px;
+  outline: none;
+}
+
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#students {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#students td, #students th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#students tr:nth-child(even){background-color: #f2f2f2;}
+
+#students tr:hover {background-color: #ddd;}
+
+#students th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #87CEEB;
+  color: white;
+}
